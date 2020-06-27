@@ -1,0 +1,4 @@
+C:\Users\bukai\OneDrive\Documents\GitHub\vendor-management-sytem\Vendor_Management\Vendor_Management\bin\Vendor_Management.dll
+C:\Users\bukai\OneDrive\Documents\GitHub\vendor-management-sytem\Vendor_Management\Vendor_Management\bin\Vendor_Management.pdb
+C:\Users\bukai\OneDrive\Documents\GitHub\vendor-management-sytem\Vendor_Management\Vendor_Management\obj\Debug\Vendor_Management.dll
+C:\Users\bukai\OneDrive\Documents\GitHub\vendor-management-sytem\Vendor_Management\Vendor_Management\obj\Debug\Vendor_Management.pdb
