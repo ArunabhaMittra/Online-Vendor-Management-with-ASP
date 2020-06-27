@@ -59,11 +59,14 @@ namespace Vendor_Management
 
                 adp.Update(dset, "vendoruser_set");
                 lbl.Text = "<b>SignUp Successfully</b>";
+                Response.Redirect("login.aspx");
             }
             else
             {
                 lbl.Text = "<b>Confirm Password Doesn't Match</b>";
             }
             }
+
+     
         }
     }

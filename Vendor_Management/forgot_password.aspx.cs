@@ -17,6 +17,7 @@ namespace Vendor_Management
         DataSet dset = null;
         DataRow dr = null;
         SqlCommand cmd = null;
+        //String pass = TextPass.Text;
         protected void Page_Load(object sender, EventArgs e)
         {
             Panel1.Visible = true;
@@ -46,7 +47,9 @@ namespace Vendor_Management
         {
             if (TextCon.Text == TextPass.Text)
                {
-                  cmd = new SqlCommand("Update vendoruser set user_password='" + TextPass.Text + "' where user_email=" + TextEmail.Text, con);
+                   Panel2.Visible = true;
+                   Panel1.Visible = false;
+                  cmd = new SqlCommand("update vendoruser set user_password='" + TextPass.Text + "' where user_email= '"+ TextEmail.Text+"'", con);
                   cmd.ExecuteNonQuery();
                   lbl.Text = "Passowrd Update Successfully";
                 }

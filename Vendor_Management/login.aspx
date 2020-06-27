@@ -17,16 +17,12 @@
         <asp:TextBox ID="TextID" runat="server" BackColor="#FF3300" 
             BorderColor="#FF3300" Height="32px" Width="265px"></asp:TextBox>
 &nbsp;
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
-            ControlToValidate="TextID" ErrorMessage="NOT BLANK" SetFocusOnError="True"></asp:RequiredFieldValidator>
         <br />
         <br />
         Enter Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextPass" runat="server" BackColor="#FF3300" Height="30px" 
-            TextMode="Password" Width="253px"></asp:TextBox>
+        <asp:TextBox ID="TextPass" runat="server" BackColor="#FF3300" Height="32px" 
+            TextMode="Password" Width="261px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
-            ControlToValidate="TextPass" ErrorMessage="NOT BLANK"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Button ID="Button_login" runat="server" BackColor="Lime" Height="45px" 

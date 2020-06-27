@@ -28,15 +28,16 @@
         <p>Enter Confirm Password:&nbsp;
             <asp:TextBox ID="TextCPass" runat="server" Height="44px" Width="213px"></asp:TextBox>
         </p>
-        <p>Enter Adddress:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>Enter Adddress:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink 
+                ID="HyperLink1" runat="server">HyperLink</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextAdd" runat="server" Height="44px" Width="213px"></asp:TextBox>
         </p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="submit" runat="server" BackColor="Red" Height="50px" 
                 onclick="submit_Click" Text="Submit" Width="144px" />
 &nbsp;&nbsp;
-            <asp:Button ID="reset" runat="server" BackColor="#CC0066" Height="55px" 
-                Text="Reset" Width="150px" />
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/login.aspx">Login</asp:HyperLink>
         </p>
         <p>
             <asp:Label ID="lbl" runat="server" BackColor="#FFFF66"></asp:Label>
