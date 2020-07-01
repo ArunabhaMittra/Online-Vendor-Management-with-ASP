@@ -13,5 +13,15 @@ namespace Vendor_Management_Site
         {
 
         }
+
+        protected void OnSignUpClick(object sender, EventArgs e)
+        {
+            Response.Redirect("");              // ADD PAGE NAME - for Sign Up
+        }
+
+        protected void OnLoginClick(object sender, EventArgs e)
+        {
+            // VERIFY LOG IN DETAILS AND PROCEED
+        }
     }
 }

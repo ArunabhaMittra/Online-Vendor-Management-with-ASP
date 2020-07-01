@@ -26,9 +26,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" Text="Log in !" />
+            <asp:Button ID="Button1" runat="server" Text="Log in !" OnClick="OnLoginClick" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Not a User ? Sign Up ?" />
+            <asp:Button ID="Button2" runat="server" Text="Not a User ? Sign Up ?" OnClick="OnSignUpClick" />
         </div>
     </form>
 </body>
