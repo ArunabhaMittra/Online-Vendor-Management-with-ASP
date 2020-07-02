@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerLogin.master.cs" Inherits="Vendor_Management_Site.CustomerLogin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 900px;
+            border-collapse: collapse;
+        }
+        .auto-style2 {
+            width: 100%;
+        }
+        .auto-style3 {
+            width: 369px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table align="center" cellpadding="0" class="auto-style1">
+                <tr>
+                    <td rowspan="3">&nbsp;</td>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/Images/CustomerHeader.jpg" Width="100%" />
+                    </td>
+                    <td rowspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                       
+                        <table align="center" class="auto-style2">
+                            <tr>
+                                <td class="auto-style3">
+                                    <asp:Menu ID="Menu1" runat="server">
+                                        <Items>
+                                            <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                                            <asp:MenuItem Text="New Service" Value="New Service"></asp:MenuItem>
+                                            <asp:MenuItem Text="My Services" Value="My Services"></asp:MenuItem>
+                                            <asp:MenuItem Text="Support" Value="Support"></asp:MenuItem>
+                                        </Items>
+                                    </asp:Menu>
+                                </td>
+                                <td>
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/CustomerPageFooterImage.jpg" Width="100%" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
