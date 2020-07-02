@@ -39,11 +39,12 @@
                                 <td class="auto-style3">
                                     <asp:Menu ID="Menu1" runat="server">
                                         <Items>
-                                            <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
-                                            <asp:MenuItem Text="New Service" Value="New Service"></asp:MenuItem>
-                                            <asp:MenuItem Text="My Services" Value="My Services"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/CustomerDashbboard.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/CustAddService.aspx" Text="New Service" Value="New Service"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/CustManageService.aspx" Text="My Services" Value="My Services"></asp:MenuItem>
                                             <asp:MenuItem Text="Support" Value="Support"></asp:MenuItem>
                                         </Items>
+                                        <StaticMenuItemStyle BorderStyle="Ridge" />
                                     </asp:Menu>
                                 </td>
                                 <td>
