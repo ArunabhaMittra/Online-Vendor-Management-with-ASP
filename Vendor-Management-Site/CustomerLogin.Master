@@ -15,8 +15,17 @@
         .auto-style2 {
             width: 100%;
         }
-        .auto-style3 {
-            width: 369px;
+        .auto-style6 {
+            width: 153px;
+        }
+        .auto-style7 {
+            width: 146px;
+        }
+        .auto-style12 {
+            width: 214px;
+        }
+        .auto-style13 {
+            width: 209px;
         }
     </style>
 </head>
@@ -27,7 +36,38 @@
                 <tr>
                     <td rowspan="3">&nbsp;</td>
                     <td>
-                        <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/Images/CustomerHeader.jpg" Width="100%" />
+                        &nbsp;<table align="center" cellpadding="0" cellspacing="0" class="auto-style2">
+                            <tr>
+                                <td class="auto-style6">
+                                    <asp:Image ID="Image3" runat="server" Height="100px" ImageUrl="~/Images/vendorlocatorlogo.jpg" />
+                                </td>
+                                <td>
+                                    <table align="center" cellpadding="0" cellspacing="0" class="auto-style2">
+                                        <tr>
+                                            <td class="auto-style13">&nbsp;</td>
+                                            <td class="auto-style12">&nbsp;</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">Hello
+                                                <asp:Label ID="Label1" runat="server"></asp:Label>
+&nbsp;</td>
+                                            <td>Today&#39;s Date :
+                                                <asp:Label ID="Label3" runat="server"></asp:Label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">Your Credit Amount : Rs
+                                                <asp:Label ID="Label2" runat="server"></asp:Label>
+&nbsp;/-</td>
+                                            <td>
+                                                <asp:Button ID="Button1" runat="server" Text="Logout ?" OnClick="OnLogoutClick" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                     <td rowspan="3">&nbsp;</td>
                 </tr>
@@ -36,10 +76,10 @@
                        
                         <table align="center" class="auto-style2">
                             <tr>
-                                <td class="auto-style3">
+                                <td class="auto-style7">
                                     <asp:Menu ID="Menu1" runat="server">
                                         <Items>
-                                            <asp:MenuItem NavigateUrl="~/CustomerDashbboard.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/CustomerDashboard.aspx" Text="Home" Value="Home"></asp:MenuItem>
                                             <asp:MenuItem NavigateUrl="~/CustAddService.aspx" Text="New Service" Value="New Service"></asp:MenuItem>
                                             <asp:MenuItem NavigateUrl="~/CustManageService.aspx" Text="My Services" Value="My Services"></asp:MenuItem>
                                             <asp:MenuItem Text="Support" Value="Support"></asp:MenuItem>

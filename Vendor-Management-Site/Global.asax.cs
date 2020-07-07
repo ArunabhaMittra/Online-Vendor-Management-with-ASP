@@ -17,5 +17,16 @@ namespace Vendor_Management_Site
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        void Session_Start(object sender, EventArgs e)
+        {
+            Session["customer_name"]= "No Name";
+            Session["customer_credit"]= "0";
+            Session["contact_no"]= "0";
+            Session["customer_id"]= "-1";
+        }
+        void Session_End(object sender, EventArgs e)
+        {
+            // Code that runs when a session ends
+        }
     }
 }
