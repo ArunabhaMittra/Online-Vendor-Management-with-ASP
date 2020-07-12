@@ -116,7 +116,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="CustAddService.aspx" />
+    <Content Include="Customer_AddService.aspx" />
+    <Content Include="Customer_AddToWallet.aspx" />
+    <Content Include="Customer_Refund.aspx" />
+    <Content Include="CustSearchForService.aspx" />
     <Content Include="CustManageService.aspx" />
     <Content Include="CustomerDashboard.aspx" />
     <Content Include="CustomerLoginPage.aspx" />
@@ -139,7 +142,11 @@
     <Content Include="Images\CustomerHeader.jpg" />
     <Content Include="Images\CustomerPageFooterImage.jpg" />
     <Content Include="Images\Footer2.png" />
+    <Content Include="Images\loadng2.gif" />
+    <Content Include="Images\pending1.gif" />
+    <Content Include="Images\success.gif" />
     <Content Include="Images\vendorlocatorlogo.jpg" />
+    <Content Include="Images\warning.gif" />
     <Content Include="LoginChoice.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -193,12 +200,33 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CustAddService.aspx.cs">
-      <DependentUpon>CustAddService.aspx</DependentUpon>
+    <Compile Include="Customer_AddService.aspx.cs">
+      <DependentUpon>Customer_AddService.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustAddService.aspx.designer.cs">
-      <DependentUpon>CustAddService.aspx</DependentUpon>
+    <Compile Include="Customer_AddService.aspx.designer.cs">
+      <DependentUpon>Customer_AddService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_AddToWallet.aspx.cs">
+      <DependentUpon>Customer_AddToWallet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer_AddToWallet.aspx.designer.cs">
+      <DependentUpon>Customer_AddToWallet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Refund.aspx.cs">
+      <DependentUpon>Customer_Refund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer_Refund.aspx.designer.cs">
+      <DependentUpon>Customer_Refund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustSearchForService.aspx.cs">
+      <DependentUpon>CustSearchForService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustSearchForService.aspx.designer.cs">
+      <DependentUpon>CustSearchForService.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustManageService.aspx.cs">
       <DependentUpon>CustManageService.aspx</DependentUpon>

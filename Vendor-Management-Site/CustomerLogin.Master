@@ -80,9 +80,13 @@
                                     <asp:Menu ID="Menu1" runat="server">
                                         <Items>
                                             <asp:MenuItem NavigateUrl="~/CustomerDashboard.aspx" Text="Home" Value="Home"></asp:MenuItem>
-                                            <asp:MenuItem NavigateUrl="~/CustAddService.aspx" Text="New Service" Value="New Service"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/CustSearchForService.aspx" Text="Searh For Service" Value="Search For Service"></asp:MenuItem>
                                             <asp:MenuItem NavigateUrl="~/CustManageService.aspx" Text="My Services" Value="My Services"></asp:MenuItem>
-                                            <asp:MenuItem Text="Support" Value="Support"></asp:MenuItem>
+                                            <asp:MenuItem Text="Add Money To Wallet" Value="Add Money To Wallet" NavigateUrl="Customer_AddToWallet.aspx">
+                                            </asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="Customer_Refund.aspx" Text="Refund / Cancel" Value="Refund / Cancel"></asp:MenuItem>
+                                            <asp:MenuItem Text="Raise an Issue With Us" Value="Raise an Issue With Us"></asp:MenuItem>
+                                            <asp:MenuItem Text="FAQs" Value="FAQs"></asp:MenuItem>
                                         </Items>
                                         <StaticMenuItemStyle BorderStyle="Ridge" />
                                     </asp:Menu>

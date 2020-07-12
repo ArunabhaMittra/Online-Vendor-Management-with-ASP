@@ -23,6 +23,7 @@ namespace Vendor_Management_Site
             Session["customer_credit"]= "0";
             Session["contact_no"]= "0";
             Session["customer_id"]= "-1";
+            Session["customer_chose_vendor_name"] = "nothing";
         }
         void Session_End(object sender, EventArgs e)
         {

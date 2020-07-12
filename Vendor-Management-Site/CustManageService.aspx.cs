@@ -45,7 +45,7 @@ namespace Vendor_Management_Site
                         service_table.Append("</tr>");
                     }
                 }
-                service_table.Append("</table.");
+                service_table.Append("</table>");
                 PlaceHolder1.Controls.Add(new Literal { Text = service_table.ToString() });
                 rd.Close();
             }
