@@ -44,6 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Generate Invoice PDF in Shopping Website\itextsharp-dll-core\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
@@ -118,7 +121,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Customer_AddService.aspx" />
     <Content Include="Customer_AddToWallet.aspx" />
+    <Content Include="Customer_GenRefund.aspx" />
     <Content Include="Customer_Refund.aspx" />
+    <Content Include="Customer_RefundChoose.aspx" />
+    <Content Include="Customer_Refund_Commit.aspx" />
     <Content Include="CustSearchForService.aspx" />
     <Content Include="CustManageService.aspx" />
     <Content Include="CustomerDashboard.aspx" />
@@ -214,12 +220,33 @@
     <Compile Include="Customer_AddToWallet.aspx.designer.cs">
       <DependentUpon>Customer_AddToWallet.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Customer_GenRefund.aspx.cs">
+      <DependentUpon>Customer_GenRefund.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer_GenRefund.aspx.designer.cs">
+      <DependentUpon>Customer_GenRefund.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Refund.aspx.cs">
       <DependentUpon>Customer_Refund.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Customer_Refund.aspx.designer.cs">
       <DependentUpon>Customer_Refund.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_RefundChoose.aspx.cs">
+      <DependentUpon>Customer_RefundChoose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer_RefundChoose.aspx.designer.cs">
+      <DependentUpon>Customer_RefundChoose.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Refund_Commit.aspx.cs">
+      <DependentUpon>Customer_Refund_Commit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer_Refund_Commit.aspx.designer.cs">
+      <DependentUpon>Customer_Refund_Commit.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustSearchForService.aspx.cs">
       <DependentUpon>CustSearchForService.aspx</DependentUpon>

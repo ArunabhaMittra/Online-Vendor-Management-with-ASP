@@ -84,7 +84,8 @@
                                             <asp:MenuItem NavigateUrl="~/CustManageService.aspx" Text="My Services" Value="My Services"></asp:MenuItem>
                                             <asp:MenuItem Text="Add Money To Wallet" Value="Add Money To Wallet" NavigateUrl="Customer_AddToWallet.aspx">
                                             </asp:MenuItem>
-                                            <asp:MenuItem NavigateUrl="Customer_Refund.aspx" Text="Refund / Cancel" Value="Refund / Cancel"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Customer_Refund.aspx" Text="Refund / Cancel" Value="Refund / Cancel"></asp:MenuItem>
+                                            <asp:MenuItem NavigateUrl="~/Customer_RefundChoose.aspx" Text="Generate Invoice" Value="Generate Invoice"></asp:MenuItem>
                                             <asp:MenuItem Text="Raise an Issue With Us" Value="Raise an Issue With Us"></asp:MenuItem>
                                             <asp:MenuItem Text="FAQs" Value="FAQs"></asp:MenuItem>
                                         </Items>

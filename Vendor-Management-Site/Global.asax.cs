@@ -24,6 +24,9 @@ namespace Vendor_Management_Site
             Session["contact_no"]= "0";
             Session["customer_id"]= "-1";
             Session["customer_chose_vendor_name"] = "nothing";
+            Session["customer_refund_amount"]= "-1";
+            Session["customer_refund_service_id"] = "-1";
+            Session["invoice_sid"] = "-1";
         }
         void Session_End(object sender, EventArgs e)
         {

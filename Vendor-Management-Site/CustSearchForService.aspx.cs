@@ -31,7 +31,7 @@ namespace Vendor_Management_Site
             cmd.Connection = con;
             SqlDataReader rd = cmd.ExecuteReader();
             service_table.Append("<table border='1'>");
-            service_table.Append("<tr><th>ID</th><th>name</th><th>Type</th><th>Charge</th>");
+            service_table.Append("<tr><th>ID</th><th>Name</th><th>Type</th><th>Charge</th>");
             service_table.Append("</tr>");
             if (rd.HasRows)
             {

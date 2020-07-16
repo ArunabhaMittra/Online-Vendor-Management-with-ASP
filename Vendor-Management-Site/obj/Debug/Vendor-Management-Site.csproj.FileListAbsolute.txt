@@ -72,3 +72,5 @@ D:\workspacecs\mygitRepository\Test1\Online-Vendor-Management-with-ASP\Vendor-Ma
 D:\workspacecs\mygitRepository\Test1\Online-Vendor-Management-with-ASP\Vendor-Management-Site\obj\Debug\Vendor-Management-Site.csproj.CopyComplete
 D:\workspacecs\mygitRepository\Test1\Online-Vendor-Management-with-ASP\Vendor-Management-Site\obj\Debug\Vendor-Management-Site.dll
 D:\workspacecs\mygitRepository\Test1\Online-Vendor-Management-with-ASP\Vendor-Management-Site\obj\Debug\Vendor-Management-Site.pdb
+D:\workspacecs\mygitRepository\Test1\Online-Vendor-Management-with-ASP\Vendor-Management-Site\bin\itextsharp.dll
+D:\workspacecs\mygitRepository\Test1\Online-Vendor-Management-with-ASP\Vendor-Management-Site\bin\itextsharp.xml
